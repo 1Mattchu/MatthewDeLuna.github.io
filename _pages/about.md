@@ -1,31 +1,25 @@
----
-
-title: "About David Florian"
+title: "About Matthew DeLuna"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Matthew combines his passion for electrical and computer engineering with a knack for digital fabrication.
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BS Electrical and Computer Engineering
+  * Minor in Digital Fabrication
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Matthew brings applied knowledge to create tangible results using a variety of fabrication tools. His experience includes:
 
 * Fused Filament Fabrication (FFF)
+* Computer Numerical Control (CNC)
 * Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
 
-## Press 
+## Maker's Philosophy
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+With a focus on turning ideas into reality, Matthew applies his expertise to craft meaningful and functional creations.
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/Matthew_Headshot.jpg" alt="Matthew DeLuna" style="width:200px;"/>
