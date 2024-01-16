@@ -22,4 +22,4 @@ Matthew brings applied knowledge to create tangible results using a variety of f
 
 With a focus on turning ideas into reality, Matthew applies his expertise to craft meaningful and functional creations.
 
-<img src="/assets/img/Matthew_Headshot.jpg" alt="Matthew DeLuna" style="width:200px;"/>
+<img src="/assets/img/Matthew_Headshot.png" alt="Matthew DeLuna" style="width:200px;"/>
