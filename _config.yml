@@ -84,7 +84,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.instagram.com/dr.dflo"
+    - "https://www.instagram.com/1mattchu1"
 
 # Analytics
 analytics:
@@ -97,9 +97,9 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
-  bio              : "An engineer with a passion for teaching "
-  location         : "Nashville, TN"
+  avatar           : "assets/img/Matthew_Headshot.png"
+  bio              : "Jack of all trades, master of few"
+  location         : "Nashville, TN / Truckee, CA"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -192,7 +192,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
