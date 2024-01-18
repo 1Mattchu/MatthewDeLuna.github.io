@@ -35,6 +35,27 @@ The Syringe Pump designed by our team (Machine Maestros) serves the purpose of d
 | Fastening and Hardware           | Various screws for assembly                          |
 |                                  | Limit Switch       |
 
+**Operation Instructions:**
+
+1. **Setup:**
+   - Use the two momentary buttons to move the plunger presser far back enough for the length of the syringe with its plunger extended.
+   - Place the back part of the syringe in the slot on the back barrel stabilizer.
+   - Adjust the presser with the momentary buttons as needed.
+
+2. **Initial Positioning:**
+   - Advance the plunger presser until it makes contact with the syringe using the forwards and backwards buttons.
+
+3. **Pumping:**
+   - Press both buttons simultaneously to slowly advance the plunger.
+   - Use the knob and button on the screen to set the syringe size and select the operation mode.
+   - Two options for operation mode: If "ml/min" is selected, specify a flow rate, and toggle the switch to start and stop pumping. If "ml" is selected, specify the amount to pump in ml, and press the rotary encoder button to start pumping. The pump will stop automatically once the required volume is pumped.
+
+4. **Safety Features:**
+   - If the limit switch is pressed during operation, the pump will warn the user of low fluid and move backward into a safe position, resetting itself.
+   - A reset button on the screen allows for program reset if the syringe size needs to be changed.
+
+5. **Syringe Replacement:**
+   - Switch out the syringe as desired.
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e916eb197ccabd1d6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
