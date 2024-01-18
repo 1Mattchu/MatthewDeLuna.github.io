@@ -38,5 +38,5 @@ The Syringe Pump designed by our team (Machine Maestros) serves the purpose of d
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e916eb197ccabd1d6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="<a href="https://github.com/1Mattchu/syringe-pump-code/blob/main/SyringeProject.ino" target="_blank">Syringe Pump Code on GitHub</a>
-" %}
+{% include gallery caption="" %}
+<a href="https://github.com/1Mattchu/syringe-pump-code/blob/main/SyringeProject.ino" target="_blank">Syringe Pump Code on GitHub</a>
