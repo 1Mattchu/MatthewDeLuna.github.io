@@ -18,4 +18,25 @@ gallery:
 
 The Syringe Pump designed by our team (Machine Maestros) serves the purpose of delivering precise and accurate amounts of fluid. This homemade syringe pump offers economic benefits while ensuring greater ease of mechanical repairability and programmability. The design involves a stepper motor coupled to a lead screw, converting angular motion to linear motion for controlled fluid delivery. Design requirements include creating parts for syringe interaction, electronic component protection, and additional features like momentary buttons and an LCD for enhanced functionality. The syringe pump's mechanics employ a linear actuator mechanism with stabilizers accommodating various syringe diameters. The enclosure features buttons, switches, and an LED for user interaction, and the design protects against water intrusion. Programmed on an Arduino using C++, the syringe pump incorporates an LCD screen and user friendly controls. Operating limits include a maximum flow rate of approximately 100mL per minute and a minimum volume of 0.1 mL. Overall, the Syringe Pump is a cost-effective, customizable, and versatile solution for precise fluid delivery in diverse applications.
 
+| Component                        | Details                                                | Supplier                   |
+|----------------------------------|--------------------------------------------------------|----------------------------|
+| NEMA 17 Stepper Motor            | Model: NEMA 17                                        | [Supplier Name]            |
+|                                  | Specifications: [Insert specific details if available] |                            |
+| Syringes                         | Compatible with 10 mL and 20 mL syringes               | [Supplier Name]            |
+| Linear Actuator Mechanism        | 2040 Aluminum Extrusion for the main body              | [Supplier Name]            |
+|                                  | 8mm Pitch Lead Screw                                  |                            |
+| Electronic Components            | Arduino Uno                                           | [Supplier Name]            |
+|                                  | 2004 LCD Display                                      |                            |
+|                                  | 2 Pushbuttons                                        |                            |
+|                                  | Rotary Encoder                                       |                            |
+|                                  | Latching Switch                                      |                            |
+|                                  | RGB LED                                              |                            |
+|                                  | Stepper Motor Drivers (Basic IC type)                |                            |
+|                                  | 12V Meanwell PSU                                     |                            |
+| Fastening and Hardware           | Various screws for assembly                          | [Supplier Name]            |
+|                                  | Generic Limit Switch (similar to 3D printers)        |                            |
+| Power Supply                     | 12V Meanwell PSU                                     | [Supplier Name]            |
+| Stepper Motor Drivers            | Basic and affordable stepper motor driver ICs        |                            |
+
+
 {% include gallery caption="" %}
