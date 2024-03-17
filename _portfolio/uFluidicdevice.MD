@@ -42,7 +42,9 @@ Following these instructions enables the fabrication of microfluidic devices fro
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e24db52f3abc94ff5?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Want to See it in Action?**
+[![Alt text](https://img.youtube.com/vi/HoYbQrZeexU/0.jpg)](https://www.youtube.com/watch?v=HoYbQrZeexU)
+
 
 
 {% include gallery caption="" %}
