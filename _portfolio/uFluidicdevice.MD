@@ -2,17 +2,17 @@
 title: " uFluidic device"
 excerpt: "Creating a microfluidic device that can reliably mix 2 separate fluids into a single homogenous mixture"
 header:
-  image: /assets/img/IMG_0437.JPEG
-  teaser: /assets/img/IMG_0437.JPEG
+  image: /assets/img/fluidicbanner.jpeg
+  teaser: /assets/img/fluidicbanner.jpeg
 gallery:
-  - url: /assets/img/IMG_0352.JPEG
-    image_path: assets/img/IMG_0352.JPEG
+  - url: /assets/img/MOLD.jpeg
+    image_path: assets/img//MOLD.jpeg
     alt: "placeholder image 1"
-  - url: /assets/img/image000000.jpg
-    image_path: assets/img/image000000.jpg
+  - url: /assets/img/PDMS.jpeg
+    image_path: assets/img/PDMS.jpeg
     alt: "placeholder image 2"
-#  - url: /assets/img/Cyber-Scooter-3.jpg
-#    image_path: assets/img/Cyber-Scooter-3.jpg
+#  - url: /assets/img/FLUIDICWORKING.jpeg
+#    image_path: assets/img/FLUIDICWORKING.jpeg
 #    alt: "placeholder image 3"
 ---
 
@@ -46,4 +46,3 @@ Following these instructions enables the fabrication of microfluidic devices fro
 
 
 {% include gallery caption="" %}
-<a href="https://github.com/1Mattchu/syringe-pump-code/blob/main/SyringeProject.ino" target="_blank">Syringe Pump Code on GitHub</a>
