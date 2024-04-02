@@ -30,7 +30,10 @@ With that in mind, I began to work on my second iteration, this one hopefully be
 Finally, when it came to adding the springy part of the design, I went through a few design choices, most of which didn't stick. I did find inspiration from [Nguyen Duc Thang’s](https://www.youtube.com/user/thang010146/about) work on mechanical mechanisms, which was to add tension springs connecting the ends of the jaws to the handles. This ended up working in a very interesting way. At first, it worked very poorly, with the TPU permanently stretching out after a few uses and the pliers failing to open up any reasonable amount. However, after repeatedly opening and closing the pliers, the resistance to open them was significantly reduced, allowing the TPU to open the jaws a greater amount.
 
 Prepping the files for printing was another challenge; the large overhangs meant that many settings were tuned inside the slicer for the printers. Cura has some amazing overhang experimental settings, but unfortunately, I had to fumble around in Super Slicer to get things the way I wanted them.
-<img src="/assets/img/SlicerSettings.png" alt="slicer settings" width="400">
+<img src="https://github.com/1Mattchu/MatthewDeLuna.github.io/blob/main/assets/img/SlicerSettings.png?raw=true" alt="slicer settings" width="400">
+
+
+[[/assets/img/SlicerSettings.png|ALT TEXT]]
 
 
 ### Relevant Specifications of the Pliers
