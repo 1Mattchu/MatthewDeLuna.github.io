@@ -1,51 +1,44 @@
 ---
-title: " uFluidic device"
-excerpt: "Creating a microfluidic device that can reliably mix 2 separate fluids into a single homogenous mixture"
+title: "Print-in-Place Pliers"
+excerpt: "Designing print-in-place models for seamless functionality straight from the printer bed."
 header:
   image: /assets/img/fluidicbanner.jpeg
   teaser: /assets/img/fluidicbanner.jpeg
 gallery:
-  - url: /assets/img/MOLD.jpeg
-    image_path: assets/img//MOLD.jpeg
+  - url: /assets/img/PliersCompare.jpeg
+    image_path: assets/img/PliersCompare.jpeg
     alt: "placeholder image 1"
-  - url: /assets/img/PDMS.jpeg
-    image_path: assets/img/PDMS.jpeg
+  - url: /assets/img/PliersDisect.jpeg
+    image_path: assets/img/PliersDisect.jpeg
     alt: "placeholder image 2"
-#  - url: /assets/img/FLUIDICWORKING.jpeg
-#    image_path: assets/img/FLUIDICWORKING.jpeg
+#  - url: /assets/img/PliersPrint.jpeg
+#    image_path: assets/img/PliersPrint.jpeg
 #    alt: "placeholder image 3"
 ---
+Print-in-place mechanisms are one of the special things about FFF printing that nearly all other manufacturing methods fail to produce. Incorporating moving hinges, joints, and linkages in a single print opens the doors to a plethora of new design options. Add in the ability to do multi-material prints, and the options open even further. Print-in-place designs are commonly seen in general hobbyist designs, where the aim is to eliminate the assembly process. This can be especially helpful in batch printing or high volume printing, where assembly times can quickly add up. Print-in-place designs can also be handy as it allows prints to be unfurled to lengths longer than the build plate.
 
-In the realm of microfluidics, where the manipulation of small fluid volumes occurs, achieving homogeneous mixing poses a significant challenge. One prominent application demanding such mixing efficiency is in the field of biochemistry, particularly for rapid and accurate reactions in diagnostic assays. The fundamental obstacle lies in the laminar flow regime inherent to microfluidic systems, where fluids flow in parallel layers without significant mixing between them due to low Reynolds numbers. Consequently, traditional methods like stirring or shaking, effective in macro-scale environments, prove ineffective at the micro-scale. Therefore, developing innovative microfluidic mixers becomes crucial to enable efficient blending of reagents, enhancing reaction kinetics, and improving assay accuracy.
+When designing and making multi-material print-in-place devices, materials matter. PLA is a great all-around plastic to use, as its warpage is very low, keeping accurate tolerances and great overhangs. ASA is another good option if you need a stronger part, but its increased warpage can cause separate components to stick to each other. ABS is similar to ASA, but with even worse warpage. TPU is a great secondary filament to use for multi-material printing, adding flexible parts to the design, whether for function or comfort. However, it tends to struggle when adhering to PLA, and for that reason, it's recommended to add dog-bones or other intermediate patterns to help prevent the TPU from detaching from the PLA. TPU does not have this issue with ABS or ASA, as it bonds very well.
 
-### My Design
+## Design and Iterative Process
 
-To have proper mixing within a microfluidic device, you must maximize the amount of chaotic turbulence experienced by the two fluids.  By far the most efficient way to achive this is to have the fluid loop back into itself, creating massive points of turbulance at select points of the mixing section.  This causes the 2 seperate fluids to quickly mix, and in practice it works incredibly well.  My design ended up looking almost exactly like a tesla valve, which is designed to prevent the flow of water in one direction by -your guessed it- turbulence.
+When coming up with ideas for my pliers, I knew I wanted to design something that was a challenge and that I would realistically use in a given environment. Parallel pliers immediately piqued my interest as they had multiple moving parts, and they were completely unique to anything I had seen before.
 
-The channel width and depth was 1 mm.  This was chosen as I wanted to maximize printability.  This came with the downside that I was not able to fit in as many turbulant loops, but I was confident that 10 were more than enough to mix the two fluids sufficiently.
+While drawing up the design on paper, I was worried that it was going to be a challenge to print. The overhangs on the print spanned centimeters, and any bridge failure would result in a print failure. So with that in mind, my first design was a proof of concept, just to see if I could get it to print. This first design worked great; it had limited motion (multiple known design mistakes) but the overhangs printed perfectly.
 
-My partners design features a spiral-like feature, with micro channels bypassing certain sections of the feature, helping to promote mixing between the 2 fluids.  My partner also included tesla valve-like loops on the bottom of his feature to help increase mixing.  Finally, he put a 3D feature at the end of his Spiral design, this 3D feature was a series of alternating sloping triangles that jutted and down.  The general channel width and depth was also 1mm, however the micro channels had a width and height of .25 and .5 mm respectivly.
+With that in mind, I began to work on my second iteration, this one hopefully being the final design. These pliers were going to be fully parametric, allowing the user to change things such as jaw length and tolerance. Keeping all parts of the design parameterized without adding unnecessary parameters became a challenge, and having to calculate the pliers' range of motion based on these parameters became harder and harder as the design process went on. The dimension I wasted the most time on was definitely "2 * (asin((Jaw_Width / 2) / (sqrt(2) * (0.5 * (Jaw_open_width + Jaw_Width)))))" which shows the path the jaws take when closing. I also made a base physics model in Fusion, to test and verify that the movement and dimensions would work in real life.
 
-### To transform the 3D printed mold into a functioning microfluidic device, follow these steps:
+Finally, when it came to adding the springy part of the design, I went through a few design choices, most of which didn't stick. I did find inspiration from [Nguyen Duc Thang’s](https://www.youtube.com/user/thang010146/about) work on mechanical mechanisms, which was to add tension springs connecting the ends of the jaws to the handles. This ended up working in a very interesting way. At first, it worked very poorly, with the TPU permanently stretching out after a few uses and the pliers failing to open up any reasonable amount. However, after repeatedly opening and closing the pliers, the resistance to open them was significantly reduced, allowing the TPU to open the jaws a greater amount.
 
-1. Print and cure the mold using a resin printer, ensuring proper curing to achieve desired structural integrity.
-
-2. Apply a thin layer of parylene to the surface of the cured mold. This deposition process is crucial for rendering the 3D print biocompatible and suitable for subsequent steps in device fabrication.
-
-3. Cast polydimethylsiloxane (PDMS) onto the parylene-coated mold. Ensure thorough coverage of the mold surface with PDMS to replicate the desired microfluidic features accurately.
-
-4. Bond a glass slide to the PDMS cast on the mold. This step establishes a secure bond between the PDMS layer and the glass slide, forming the final microfluidic device.
-
-Following these instructions enables the fabrication of microfluidic devices from 3D printed molds, without the need for specialized cleanroom facilities or extensive post-print treatments. 
+Prepping the files for printing was another challenge; the large overhangs meant that many settings were tuned inside the slicer for the printers. Cura has some amazing overhang experimental settings, but unfortunately, I had to fumble around in Super Slicer to get things the way I wanted them.
+<img src="/assets/img/SlicerSettings.png" alt="slicer settings" width="400">
 
 
-### View The Design!
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e24db52f3abc94ff5?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+### Relevant Specifications of the Pliers
+
+- Useable Jaw length: 30 mm
+- Max jaw opening: 17 mm
+- Max overall length: 165 mm
+- Max handle opening: 125 mm
 
 
-### Want To See It In Action?
-[![Alt text](https://img.youtube.com/vi/HoYbQrZeexU/0.jpg)](https://www.youtube.com/watch?v=HoYbQrZeexU)
-
-
-
-{% include gallery caption="" %}
+{% include gallery caption="Iterations and final print of the pliers." %}
