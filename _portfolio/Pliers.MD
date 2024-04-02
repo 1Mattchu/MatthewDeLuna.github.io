@@ -2,8 +2,8 @@
 title: "Print-in-Place Pliers"
 excerpt: "Designing print-in-place models for seamless functionality straight from the printer bed."
 header:
-  image: /assets/img/IMG_1257.jpg
-  teaser: /assets/img/IMG_1257.jpg
+  image: /assets/img/IMG_1263.jpg
+  teaser: /assets/img/IMG_1263.jpg
 gallery:
   - url: /assets/img/PliersCompare.jpeg
     image_path: assets/img/PliersCompare.jpeg
