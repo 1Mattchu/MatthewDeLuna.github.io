@@ -2,18 +2,18 @@
 title: "Print-in-Place Pliers"
 excerpt: "Designing print-in-place models for seamless functionality straight from the printer bed."
 header:
-  image: /assets/img/fluidicbanner.jpeg
-  teaser: /assets/img/fluidicbanner.jpeg
+  image: /assets/img/IMG_1257.jpg
+  teaser: /assets/img/IMG_1257.jpg
 gallery:
   - url: /assets/img/PliersCompare.jpeg
     image_path: assets/img/PliersCompare.jpeg
-    alt: "placeholder image 1"
+    alt: "comparison"
   - url: /assets/img/PliersDisect.jpeg
     image_path: assets/img/PliersDisect.jpeg
-    alt: "placeholder image 2"
-#  - url: /assets/img/PliersPrint.jpeg
-#    image_path: assets/img/PliersPrint.jpeg
-#    alt: "placeholder image 3"
+    alt: "disection"
+  - url: /assets/img/IMG_1256.gif
+    image_path: assets/img/IMG_1256.gif
+    alt: "working"
 ---
 Print-in-place mechanisms are one of the special things about FFF printing that nearly all other manufacturing methods fail to produce. Incorporating moving hinges, joints, and linkages in a single print opens the doors to a plethora of new design options. Add in the ability to do multi-material prints, and the options open even further. Print-in-place designs are commonly seen in general hobbyist designs, where the aim is to eliminate the assembly process. This can be especially helpful in batch printing or high volume printing, where assembly times can quickly add up. Print-in-place designs can also be handy as it allows prints to be unfurled to lengths longer than the build plate.
 
@@ -30,11 +30,12 @@ With that in mind, I began to work on my second iteration, this one hopefully be
 Finally, when it came to adding the springy part of the design, I went through a few design choices, most of which didn't stick. I did find inspiration from [Nguyen Duc Thang’s](https://www.youtube.com/user/thang010146/about) work on mechanical mechanisms, which was to add tension springs connecting the ends of the jaws to the handles. This ended up working in a very interesting way. At first, it worked very poorly, with the TPU permanently stretching out after a few uses and the pliers failing to open up any reasonable amount. However, after repeatedly opening and closing the pliers, the resistance to open them was significantly reduced, allowing the TPU to open the jaws a greater amount.
 
 Prepping the files for printing was another challenge; the large overhangs meant that many settings were tuned inside the slicer for the printers. Cura has some amazing overhang experimental settings, but unfortunately, I had to fumble around in Super Slicer to get things the way I wanted them.
-<img src="https://github.com/1Mattchu/MatthewDeLuna.github.io/blob/main/assets/img/SlicerSettings.png?raw=true" alt="slicer settings" width="400">
+The Settings "Extra perimeters On overhangs" as well as "Extrusion direction Reverse on odd" made measurable improvements on overhang quality.
+<img src="https://github.com/1Mattchu/MatthewDeLuna.github.io/blob/main/assets/img/SlicerSettings.png?raw=true" alt="slicer settings" width="600">
 
 
-[[/assets/img/SlicerSettings.png|ALT TEXT]]
-
+### View The Design!
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6efbce02b5a7c83498?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Relevant Specifications of the Pliers
 
