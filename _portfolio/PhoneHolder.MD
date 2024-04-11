@@ -16,11 +16,6 @@ gallery:
     alt: "closeup of TPU"
 ---
 
-A description of top-down modeling and how it was leveraged in this
-assignment.
-▪ Rationale behind your design
-▪ Assembly instructions
-▪ Material choice
 
 ### Top-Down Modeling
 
