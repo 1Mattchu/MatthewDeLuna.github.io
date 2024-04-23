@@ -26,7 +26,7 @@ gallery:
 ---
 
 
-##How Generative design is changing the aerospace and automotive industry.
+## How Generative design is changing the aerospace and automotive industry.
 
 The relationship between powder bed fusion and generative design is revolutionizing the aerospace and automotive industries by pushing the boundaries of engineering capabilities. Powder bed fusion, an additive manufacturing process, constructs parts layer by layer from powdered materials using a heat source, such as a laser or electron beam. This process allows for the creation of complex geometries that are often impossible to achieve with traditional subtractive manufacturing methods. When combined with generative design, a method that uses algorithms to generate optimal structures based on specific constraints, it creates huge potential for innovation and potential.
 
@@ -44,7 +44,7 @@ In both aerospace and automotive sectors, the combination of generative design a
 
 The potential applications for generative design extend beyond just lightweighting. It can be used to improve thermal management, optimize fluid dynamics for better aerodynamics, and tailor mechanical properties to specific use cases. As the technology continues to mature, the range of applications is expected to grow, further cementing the role of generative design and powder bed fusion in the future of manufacturing.
 
-##Modern Engineering’s curse
+### Modern Engineering’s curse
 Generative design comes with its own set of issues. The phrase "things aren’t made how they used to be" often points to modern manufacturing methods like generative design as part of the problem. Traditionally, when engineers designed components for high loads without fully understanding the forces involved, they would opt for simpler, stronger designs to be safe. Now, generative design and similar technologies allow for precise optimization of parts for material and weight savings. This is great in theory, and often the benefits do outweigh the negatives. However, these designs usually only take into account the expected forces and their intensities. What if something unexpected happens, like hitting a big pothole at 120 miles per hour in a supercar? If engineers didn't consider such high-impact scenarios at speeds over 100 mph and impact angles above 10 degrees, the car might not hold up. Would an older, more traditional design have fared better? It's hard to tell with so many factors involved, but it does remind us that manufacturing has changed.
 
 
@@ -55,10 +55,10 @@ This isn’t to say that generative design is bad, it's an incredible technology
 
 
 
-##My Truck design?
+### My Truck design?
 Beautiful ;)
 
-#View my designs!
+#### View my designs!
 
 Aluminum AlSi10Mg
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e5bedbdddd53b9bd2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
