@@ -16,10 +16,14 @@ gallery:
     alt: "closeup of TPU"
 ---
 
+## Criteria for paddles
+
 
 1. **Design and 3D print a pickleball paddle** that conforms to the 2024 USA Pickleball Official Rulebook. The paddle must be able to survive a game of pickleball. *(1%)*
 
-   My pickleball paddle does conform to all rules and regulations set by the rulebook, but unfortunately, my paddle did not survive a full game.  This may be in part due to the design of the paddle itself, however there were noticeable printing errors such as under extrusion and it not finishing the last 2-3 top layers which were the main contributors of the design fracturing.
+   My pickleball paddle conforms to all rules and regulations set by the rulebook.
+
+Unfortunately, my paddle did not survive a full game of pickleball.  This may be in part due to the design of the paddle itself, however there were noticeable printing errors such as under extrusion and it not finishing the last 2-3 top layers.  This could be considered main contributor of the paddle fracturing.
 
 2. The pickleball paddle must have:
    - A **printed TPU element** in the handle to improve grip. *(0.5%)*
