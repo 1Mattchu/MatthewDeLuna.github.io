@@ -49,7 +49,7 @@ Generative design comes with its own set of issues. The phrase "things aren’t 
 
 
 <img src="https://github.com/1Mattchu/MatthewDeLuna.github.io/blob/main/assets/img/tradvsgener.jpg?raw=true" alt="design" width="600">
-The image above shows us a perfect example of this phenomenon.  The generative design was most likely made with the intended loads and the proper safety factors, but the “traditional design” is objectively stronger, and although it sacrifices majorly on weight, it will almost undoubtedly last longer.
+The image above shows us a perfect example of this phenomenon.  The generative design was most likely made with the intended loads and the proper safety factors, but the “traditional design” is objectively stronger, and although it sacrifices majorly on weight, it will almost undoubtedly last longer in a rough enviroment.
 
 This isn’t to say that generative design is bad, it's an incredible technology that will increase efficiency and responsible material usage.  People, and especially engineers and designers, just have to understand that every benefit has its drawbacks.  Using generative design when tight weight savings or material usage is not required is essentially pointless in a completely mechanical view.  Alternatively, this can be when weight savings and/or material usage is a point of concern, such as parts used in airplanes, cars, and other energy conscious devices.
 
