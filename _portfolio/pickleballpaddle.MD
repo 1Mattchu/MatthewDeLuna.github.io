@@ -29,9 +29,9 @@ Unfortunately, my paddle did not survive a full game of pickleball.  This may be
    - A **printed TPU element** in the handle to improve grip. *(0.5%)*
    - An **interchangeable edge guard** to protect the face of the paddle when contact is made with the ground. *(0.5%)*
 
-   My paddle has both a TPU handle and a TPU edge guard.  The handle was made in OPENSCAD, with dimensions that perfectly fit my hand’s dimensions.  This was then ported to Fusion where I made cutouts so it could slip on to the paddle.  After using it I noticed that the TPU grip was slippery, so I wrapped it with climbing tape to give myself a better grip.
-   <img src="https://github.com/1Mattchu/MatthewDeLuna.github.io/blob/main/assets/img/Screenshot 2024-04-23 203652 (Medium).png?raw=true" alt="paddle edge" width="600">
-
+   My paddle has both a TPU handle and a TPU edge guard.  The handle was edited in openSCAD, with dimensions that perfectly form to my hand.  Huge thanks to Alex Matulich for his work in researching and developing a publicly available parametric grip <a href="https://www.nablu.com/2022/03/whose-hands-are-biggest-you-may-be.html">(Blog post here)</a>!  This was then ported to Fusion where I made cutouts so it could slip on to the paddle.  After using it I noticed that the TPU grip was slippery, so I wrapped it with climbing tape to give myself a better grip.
+   <img src="https://github.com/1Mattchu/MatthewDeLuna.github.io/blob/main/assets/img/Screenshot 2024-04-23 203652 (Medium).png?raw=true" alt="paddle grip" width="600">
+*The model in openSCAD, modified to fit my hand*
 
    The edge guard was printed in 3 straight strips, these strips would bend and snap into the paddle’s edge, locking it in place.  This worked better than expected, and the edge guard never moved after snapping into place.
    <img src="https://github.com/1Mattchu/MatthewDeLuna.github.io/blob/main/assets/img/paddle edge.png?raw=true" alt="paddle edge" width="600">
