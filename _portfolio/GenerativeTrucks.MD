@@ -23,6 +23,12 @@ gallery:
   - url: /assets/img/truck top.JPEG
     image_path: assets/img/truck top.JPEG
     alt: "design"
+  - url: /assets/img/render metal truck.png
+    image_path: assets/img/render metal truck.png
+    alt: "metal truck render"
+  - url: /assets/img/render nylon truck.png
+    image_path: assets/img/render nylon truck.png
+    alt: "render of nylon truck"
 ---
 
 
